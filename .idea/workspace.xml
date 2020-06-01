@@ -7,11 +7,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/HTCS5606S12020PHP/composer.json</pharConfigPath>
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1cjlZADVcq3ZR7rwGHX1Anc4rRN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,6 +40,7 @@
       <option name="presentableId" value="Default" />
       <updated>1591049935374</updated>
       <workItem from="1591049937962" duration="22000" />
+      <workItem from="1591049961249" duration="370000" />
     </task>
     <servers />
   </component>
@@ -47,5 +52,13 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="1218" y="335" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1591049956974" />
+    <state x="1285" y="478" key="Github.ShareDialog" timestamp="1591049984809">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="1285" y="478" key="Github.ShareDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1591049984809" />
+    <state x="1168" y="285" key="Github.UntrackedFilesDialog" timestamp="1591049994601">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="1168" y="285" key="Github.UntrackedFilesDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1591049994601" />
   </component>
 </project>
