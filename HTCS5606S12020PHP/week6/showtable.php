@@ -5,7 +5,7 @@
     <title>Show my records</title>
 </head>
 <body>
-<table border="1" style="width: 300px">
+<table border="1" style="width: 700px">
     <tr>
         <th>ID</th>
         <th>Username</th>
