@@ -16,14 +16,16 @@ class User
      * User constructor.
      * @param $id
      * @param $username
-     * @param $name
      * @param $password
+     * @param $name
      */
-    public function  __construct($id, $username, $name, $password)
+    public function __construct($id, $username, $password, $name)
     {
         $this->id = $id;
         $this->username = $username;
-        $this->name = $name;
         $this->password = $password;
+        $this->name = $name;
     }
+
+
 }
