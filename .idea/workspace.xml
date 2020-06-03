@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f304a991-195f-4ea5-a64d-138531b595bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/HTCS5606S12020PHP/week6/class/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTCS5606S12020PHP/week6/dbconnection.php" beforeDir="false" afterPath="$PROJECT_DIR$/HTCS5606S12020PHP/week6/dbconnection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTCS5606S12020PHP/week6/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/HTCS5606S12020PHP/week6/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +78,29 @@
       <workItem from="1591049961249" duration="1238000" />
       <workItem from="1591134445921" duration="610000" />
       <workItem from="1591162055088" duration="25000" />
+      <workItem from="1591216586892" duration="2801000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="1250" y="300" key="#com.intellij.ide.util.MemberChooser" timestamp="1591217922678">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="1250" y="300" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1160@0.0.1920.1160" timestamp="1591217922678" />
     <state x="1218" y="335" key="FileChooserDialogImpl" timestamp="1591162078533">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -79,5 +113,13 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="1168" y="285" key="Github.UntrackedFilesDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1591049994601" />
+    <state x="1129" y="307" key="NewPhpClassDialog" timestamp="1591217604361">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="1129" y="307" key="NewPhpClassDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1591217604361" />
+    <state x="796" y="588" key="NewPhpFileDialog" timestamp="1591216741465">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="796" y="588" key="NewPhpFileDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1591216741464" />
   </component>
 </project>
