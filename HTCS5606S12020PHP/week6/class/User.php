@@ -9,8 +9,8 @@ class User
 {
     public $id;
     private $username;
-    public $name;
     private $password;
+    public $name;
 
     /**
      * User constructor.
