@@ -6,6 +6,7 @@ $database = "xuc77vapd06kjxop";
 
 
 /**
+ * @name dbconn
  * @return mysqli a connection
  */
 function dbconn(){
@@ -17,7 +18,12 @@ function dbconn(){
     }
 }
 
-
+/**
+ * @name login
+ * @param $username
+ * @param $password
+ * @return bool //login or not
+ */
 function login($username, $password){
 //    return true/false return give result back and jump out from this function. Any code after return won't be run
     $conn = dbconn(); //create database connection from function dbconn()
@@ -41,6 +47,10 @@ function login($username, $password){
     }
 }
 
+/**
+ * @name showProfile
+ * @param $username
+ */
 function showProfile($username){ //this function has no return
     $conn = dbconn();
     $sql = "select * from Users where username='$username'";
@@ -55,3 +65,58 @@ function showProfile($username){ //this function has no return
         }
     }
 }
+
+/**
+ * @name changePassword
+ * @param $username
+ * @param $oldPassword
+ * @param $newPassword
+ * @return bool //changed or not
+ */
+function changePassword($username, $oldPassword, $newPassword){
+    $conn = dbconn();
+    $sql = "select password from Users where username='$username'"; //find the old password
+    $result = $conn->query($sql);
+    if ($result->num_rows == 1) {
+        while ($row = $result->fetch_assoc()) {
+            $oldPwdInDb = $row["password"];
+        }
+    }
+
+    if ($oldPassword == $oldPwdInDb) { //check the old password input
+        $sql = "update Users set password = '";
+        $sql .= $newPassword;
+        $sql .= "' where username = '$username'";
+        $conn->query($sql);
+        $conn->close();
+        return true; //password changed, return true
+    } else {
+        $conn->close();
+        return false; //if not return false
+    }
+}
+
+
+/**
+ * @name showRecords
+ * @return array // records
+ */
+function showRecords(){
+    $connection = dbconn();
+    $sql = "select * from Users"; // create query
+    $result = $connection->query($sql); //run the query on this connection
+    $records = array();
+
+    if ($result->num_rows > 0){ //check if there is record in the result
+        while ($row = $result->fetch_assoc()){ //show each associated row
+//            echo $row['id']." ".$row['username']." ".$row['password']." ".$row['name']."<br>"; // in each row, we have columns.
+            $record = array($row['id'], $row['username'], $row['password'], $row['name']);
+            array_push($records, $record);
+        }
+    }else{
+        echo "no result in the table";
+    }
+    $connection->close();
+    return $records;
+}
+//https://php02062020.herokuapp.com/HTCS5606S12020PHP/week6/loginform.php
